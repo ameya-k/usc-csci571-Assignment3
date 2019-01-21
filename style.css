@@ -1,0 +1,220 @@
+@font-face {
+            font-family: futura_heavy;
+            src: url('futura.otf');
+}
+
+@font-face {
+            font-family: expressway;
+            src: url('expressway.ttf');
+}
+
+
+body {
+  font-family: futura_heavy, sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  width: 800px;
+  margin: auto;
+  overflow-x: hidden;
+
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+/*  background: rgba(0, 0, 0, 0.3);*/
+}
+
+header .nav-title {
+  font-weight: 700;
+  font-size: 22px;
+  
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+header ul {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 1rem;
+
+}
+
+button {
+  font-family: futura;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 6rem;
+  
+  line-height: 1;
+}
+
+.center {
+  text-align: center;
+}
+
+.pointer {
+  font-weight: 700;
+  font-size: 10px;
+  cursor: pointer;
+  line-height: 3.0;
+  text-transform: uppercase;
+}
+
+.pointer1{
+  font-weight: 100;
+  font-size: 10px;
+  cursor: pointer;
+  line-height: 3.0;
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+.heading {
+  margin: 2rem 0 3rem;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.body-text {
+  width: 500px;
+  max-width: 600px;
+  line-height: 1.75;
+  font-family: 'Varela',sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.big-white-button {
+  padding: 1rem 1.5rem;
+  background-color: white;
+  color: black;
+  font-size: .5rem;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: .5px;
+  border-radius: 1px;
+  margin: 2rem 0;
+}
+
+
+.parallax-one {
+  background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)),url("snow1.jpg");
+  background-size: 1278px 700px;
+  background-repeat: no-repeat;
+  width: 800px;
+  background-position-x:center;
+  background-attachment: fixed;
+}
+
+.parallax-two {
+  background: url("snow6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  background-attachment: fixed;
+  background-position-x:center;
+
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  flex-direction: column;
+}
+
+.row-one{
+  line-height: 1.0;
+  height: 520px;
+  
+}
+
+.row-four {
+  line-height: 1.5;
+  height: 650px;
+  justify-content: center;
+  
+}
+
+.row-two {
+  margin: 2rem;
+}
+
+.row-two .grid-container {
+  
+  text-align: center;
+  
+}
+
+.grid-container{
+  padding-top: 30px;
+}
+
+.row-three {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: .9rem;
+  line-height: 2;
+}
+.grid-image {
+  width: 330px;
+  height: 330px;
+  margin: 3px;
+  object-fit: cover;
+}
+
+.grid_row{
+  display: inline;
+}
+
+.right{
+  padding-bottom: 5.5px;
+}
+
+.mid_para{
+  width: 500px;
+  max-width: 600px;
+  line-height: 2;
+  font-weight: 550;
+  font-family:expressway;
+  font-size: 10.5px;
+  color: #858585;
+}
+
+.body-text-bottom {
+  width: 500px;
+  max-width: 600px;
+  line-height: 2;
+  font-family:expressway;
+  color: white;
+  font-size: 14px;
+}
+
+
+@media screen and (max-width:800px){
+  .parallax-one{
+    background-position-x:-238px;
+
+  }
+
+  .parallax-two{
+    background-position-x:-315px;
+  }
+}
